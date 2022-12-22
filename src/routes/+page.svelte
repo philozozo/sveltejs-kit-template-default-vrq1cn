@@ -1,7 +1,9 @@
 <script>
 	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import Essai from './Essai.svelte';
+	
+
+
 </script>
 
 <svelte:head>
@@ -11,11 +13,9 @@
 
 <section>
 
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
 
 	<Counter />
+	<Essai />
 </section>
 
 <style>
